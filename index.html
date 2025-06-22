@@ -10,33 +10,41 @@
   <header class="header">
     <div class="container">
       <div class="logo">
-        <img src="IMG/logo.png" alt="Logo Data Hora" class="logo-img">
-        <div class="logo-text">
-          <span class="brand-name"></span>
-          <span class="brand-subtitle"></span>
-        </div>
+      <img src="IMG/logo.png" alt="Logo Data Hora" class="logo-img">
+      <div class="logo-text">
+        <span class="brand-name"></span>
+        <span class="brand-subtitle"></span>
+      </div>
       </div>
       <nav class="navigation">
-        <a href="#" class="nav-link active">INÍCIO</a>
-        <a href="#" class="nav-link">PRODUTOS</a>
-        <a href="#" class="nav-link">CONTATO</a>
+      <a href="#home" class="nav-link active">INÍCIO</a>
+      <a href=".produtos-carrossel" class="nav-link" onclick="document.querySelector('.produtos-carrossel').scrollIntoView({ behavior: 'smooth' }); return false;">PRODUTOS</a>
+      <a href=".footer" class="nav-link" onclick="document.querySelector('.footer').scrollIntoView({ behavior: 'smooth' }); return false;">CONTATO</a>
       </nav>
-      <button class="support-btn">Suporte</button>
+      <a href="https://api.whatsapp.com/send?phone=558894070552" target="_blank" class="support-btn">Suporte</a>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="hero-content">
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-text">
       <h1>DATA HORA TECH</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Soluções em tecnologia, controle de ponto e automação para sua empresa. Confiança, inovação e eficiência.
       </p>
       <div class="buttons">
-        <a href="#" class="btn filled">Produtos</a>
-        <a href="#" class="btn outlined">Contato</a>
+        <a href=".produtos-carrossel" class="btn filled"
+          onclick="document.querySelector('.produtos-carrossel').scrollIntoView({ behavior: 'smooth' }); return false;">Produtos</a>
+        <a href=".footer" class="btn outlined"
+          onclick="document.querySelector('.footer').scrollIntoView({ behavior: 'smooth' }); return false;">Contato</a>
       </div>
     </div>
-  </section>
+    <div class="hero-image">
+      <img src="IMG/Free High-Quality Realistic MacBook Pro Mockup 1.png" alt="Imagem Hero">
+    </div>
+  </div>
+</section>
+
 
   <section class="about-us">
     <div class="about-container">
@@ -67,8 +75,8 @@
         <p>Estamos prontos para entender suas necessidades e entregar soluções de alto impacto.</p>
 
         <div class="social-buttons">
-          <a href="#" class="social-btn whatsapp">WhatsApp</a>
-          <a href="#" class="social-btn instagram">Instagram</a>
+          <a href="https://api.whatsapp.com/send?phone=558894070552" class="social-btn whatsapp" target="_blank">WhatsApp</a>
+          <a href="https://instagram.com/datahoraoficial" class="social-btn instagram" target="_blank">Instagram</a>
         </div>
       </div>
     </div>
@@ -85,7 +93,7 @@
           <div class="info">
             <h3>Sistema de Ponto Eletrônico Ezpointweb</h3>
             <p>O Ezpointweb é um sistema de gestão de ponto eletrônico em nuvem, projetado para simplificar e automatizar o controle da jornada de trabalho dos colaboradores. Ele centraliza as informações de ponto, permitindo que gestores acessem dados como horas trabalhadas, faltas, atrasos e horas extras em tempo real, de qualquer lugar. O sistema oferece relatórios gerenciais completos, facilita o fechamento da folha de pagamento e garante a conformidade com a legislação trabalhista, otimizando a rotina do departamento de RH.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
             
@@ -95,7 +103,7 @@
             <h3>Aplicativo Ezpoint One
             </h3>
             <p>O Ezpoint One é o aplicativo móvel do sistema Ezpointweb, levando a gestão de ponto para a palma da mão de gestores e colaboradores. Para os funcionários, permite a marcação de ponto online e offline, com geolocalização e reconhecimento facial, além da consulta de espelho de ponto e envio de atestados. Para os gestores, o app oferece acesso instantâneo aos registros da equipe, aprovação de solicitações e visualização de indicadores, proporcionando mobilidade e agilidade na tomada de decisões.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
 
@@ -104,7 +112,7 @@
           <div class="info">
             <h3>Relógio de Ponto Blue</h3>
             <p>O Relógio de Ponto Blue é um equipamento compacto e tecnológico para o registro de ponto. Homologado pelo INMETRO e em conformidade com a Portaria 671/2021 do MTP, ele oferece segurança e precisão no controle de jornada. Sua identificação pode ser feita por meio de biometria, senha ou cartão de proximidade, emitindo o comprovante de marcação para o trabalhador. É uma solução eficiente para empresas que buscam um controle de ponto eletrônico seguro e de fácil utilização.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
 
@@ -113,7 +121,7 @@
           <div class="info">
             <h3>Relógio de Ponto Control ID iDClass</h3>
             <p>O Control ID iDClass é um relógio de ponto eletrônico (REP-C) moderno e robusto, conhecido por sua alta capacidade de armazenamento e segurança. Ele permite a identificação do colaborador por biometria, cartões de proximidade e senha.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
 
@@ -122,7 +130,7 @@
           <div class="info">
             <h3>iDClass Facial</h3>
             <p>A versão iDClass Facial eleva o nível de tecnologia e segurança ao incorporar o reconhecimento facial como principal meio de identificação, oferecendo uma experiência de marcação de ponto rápida, sem contato e à prova de fraudes.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
 
@@ -131,7 +139,7 @@
           <div class="info">
             <h3>Relógio de Ponto Cartográfico Henry</h3>
             <p>O relógio de ponto cartográfico da Henry é a solução mais simples e tradicional para o controle de ponto. Ideal para pequenas empresas ou locais com infraestrutura de rede limitada, este equipamento imprime o horário de entrada e saída diretamente em um cartão de cartolina. É um método de baixo custo e de fácil utilização, que dispensa o uso de softwares complexos para o seu funcionamento básico.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
 
@@ -140,7 +148,7 @@
           <div class="info">
             <h3>Relógio Top Data Inner REP Plus</h3>
             <p>O Inner REP Plus é um relógio de ponto da Top Data que se destaca pela sua grande capacidade de armazenamento de colaboradores e registros, além da autonomia da sua bobina de papel, que pode chegar a mais de 11.000 comprovantes. Homologado e em conformidade com a legislação, oferece segurança e agilidade no registro de ponto através de biometria, cartão ou senha, sendo uma solução de ótimo custo-benefício para empresas de médio e grande porte.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
 
@@ -149,7 +157,7 @@
           <div class="info">
             <h3>Catraca IDBlock com Leitura Facial Dupla</h3>
             <p>A catraca IDBlock da Control ID é uma solução de controle de acesso robusta e sofisticada. Na versão com leitura facial dupla, ela oferece um dos mais altos níveis de segurança e eficiência do mercado. Os dois sensores faciais permitem uma identificação ultrarrápida e precisa dos usuários, mesmo em fluxo contínuo de pessoas, liberando o acesso de forma ágil e segura. É ideal para locais de alta circulação, como grandes empresas, indústrias e instituições de ensino, que demandam um controle rigoroso de entrada e saída.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
 
@@ -158,7 +166,7 @@
           <div class="info">
             <h3>Catraca Top Data Biometria</h3>
             <p>As catracas com biometria da Top Data são equipamentos tradicionais e confiáveis para o controle de acesso. Robustas e eficientes, utilizam a impressão digital para a identificação dos usuários, garantindo que apenas pessoas autorizadas acessem áreas restritas. São ideais para ambientes que necessitam de um controle de acesso seguro e eficaz, como empresas, academias e instituições de ensino.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
 
@@ -167,7 +175,7 @@
           <div class="info">
             <h3>Catraca Top Data Facial</h3>
             <p>A linha de catracas com reconhecimento facial da Top Data oferece uma solução moderna e higiênica para o controle de acesso. Com um leitor facial de alta tecnologia, permite a identificação rápida dos usuários, mesmo com o uso de máscaras. A ausência de contato físico para a liberação do acesso torna essa catraca uma excelente opção para locais com grande circulação de pessoas, promovendo mais segurança e bem-estar.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
 
@@ -176,7 +184,7 @@
           <div class="info">
             <h3>Relógio Prisma AD-S Facial</h3>
             <p>O Prisma AD-S Facial é a versão com reconhecimento facial da linha de relógios de ponto da Henry. Este equipamento moderno e seguro utiliza a tecnologia de leitura facial para um registro de ponto rápido e sem contato. Com câmera infravermelha, garante o funcionamento mesmo em ambientes com baixa luminosidade e, assim como os outros modelos da linha, está em total conformidade com as exigências do Ministério do Trabalho e Previdência.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
 
@@ -185,13 +193,57 @@
           <div class="info">
             <h3>Relógio Prisma Super Fácil</h3>
             <p>O relógio de ponto Prisma Super Fácil da Henry foi desenvolvido para aliar tecnologia e simplicidade. Com um display colorido e sensível ao toque, oferece uma experiência de uso intuitiva. Disponível em diferentes versões, permite a identificação por biometria, cartão de proximidade e senha. É um equipamento que atende à Portaria 671, garantindo a segurança jurídica e a praticidade na gestão do ponto.</p>
-            <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn">Fale conosco</a>
+            <a href="https://api.whatsapp.com/send?phone=5588999975653" class="btn">Fale conosco</a>
           </div>
         </div>
       </div>
       <button class="carrossel-btn next">&#10095;</button>
     </div>
   </section>
+
+  <section class="parceiros">
+  <h2>Parceiros</h2>
+  <div class="parceiros-container">
+    <img src="IMG/FORNECEDORES.jpg" alt="Logotipos dos parceiros" />
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h4>Contatos</h4>
+      <p>Financeiro: 88 9452-4035 </p>
+      <p>Suporte: 88 9407-0552</p>
+       <br>
+      <h4>Vendedores</h4>
+      <p>Mauricio:88 9997-5653 </p>
+      <p>Geraldo: 88 9981-0005</p>
+    </div>
+    <div class="footer-section">
+      <h4>Redes Sociais</h4>
+      <p>Instagram: @datahoraoficial
+      </p>
+      <p>Whatsapp: 88 9407-0552</p>
+    </div>
+    <div class="footer-section">
+      <h4>Endereço:</h4>
+      <p>R. São Pedro, 253 - 1º Andar -<br>
+      Centro, Juazeiro do Norte - CE,<br>
+      63010-010</p>
+    </div>
+    <div class="footer-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.3397972934035!2d-39.31961678864218!3d-7.2020178927734255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a17f548d7b8b63%3A0xb708ea6342f3a846!2sR.%20S%C3%A3o%20Pedro%2C%20253%20-%20Santa%20Tereza%2C%20Juazeiro%20do%20Norte%20-%20CE%2C%2063010-010!5e0!3m2!1spt-BR!2sbr!4v1750598782305!5m2!1spt-BR!2sbr"
+        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© DATA HORA TECH. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+
 
   <script src="JS/carrossel.js"></script>
 </body>
